@@ -13,7 +13,7 @@ function submitLeaveFormEvent() {
         record.cr1e8_medical = medical;
 
         webapi.safeAjax({
-          type: "POST",
+          type: "POST",  
           contentType: "application/json",
           url: "/_api/cr1e8_cds_leaveforms",
           data: JSON.stringify(record),
