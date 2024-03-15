@@ -36,6 +36,8 @@ function startUpProcedure() {
 
 
 // *** Document Ready - Load Power Pages WEBAPI support    .
+// *** Document Ready - Load Power Pages WEBAPI support    .
+
 $( document ).ready(function() {
 
     (function(webapi, $){
